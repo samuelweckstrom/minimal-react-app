@@ -1,0 +1,53 @@
+{
+  "name": "react-minimal",
+  "version": "1.0.0",
+  "description": "Minimum config React app",
+  "main": "index.js",
+  "repository": "https://github.com/samuelweckstrom/minimal-react-app.git",
+  "author": "Samuel Weckstrom <samuel.weckstrom@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "styled-components": "^4.1.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "23.6.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-named-asset-import": "^0.3.0",
+    "babel-preset-react-app": "^7.0.0",
+    "eslint": "^5.9.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-react": "^1.1.7",
+    "eslint-config-react-app": "^3.0.6",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-config-standard-jsx": "^6.0.2",
+    "eslint-loader": "2.1.1",
+    "eslint-plugin-flowtype": "2.50.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "23.6.0",
+    "path": "^0.12.7",
+    "prettier": "^1.16.1",
+    "prop-types": "^15.6.2",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

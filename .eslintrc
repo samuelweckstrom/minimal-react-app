@@ -1,0 +1,59 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "standard",
+    "standard-jsx",
+    "prettier",
+    "prettier/react",
+    "prettier/standard"
+  ],
+  "plugins": [
+    "react",
+    "prettier",
+    "standard",
+    "security"
+  ],
+  "rules": {
+    "import/first": "off",
+    "prettier/prettier": "error",
+    "standard/no-callback-literal": "off",
+    "no-unexpected-multiline": "off",
+    "no-return-await": "off",
+    "node/no-deprecated-api": "off",
+    "no-useless-rename": "off",
+    "comma-dangle": [
+      "error",
+      {
+        "arrays": "only-multiline",
+        "objects": "only-multiline",
+        "imports": "ignore",
+        "exports": "ignore",
+        "functions": "ignore"
+      }
+    ],
+    "no-cond-assign": [
+      "error",
+      "always"
+    ],
+    "no-underscore-dangle": "off",
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "./app/**/*.story.js",
+          "./storybook/**/*.js",
+          "**/*.test.js",
+          "**/*.spec.js",
+          "./config/jest/**/*.js"
+        ]
+      }
+    ]
+  },
+  "env": {
+    "jest": true,
+    "browser": true
+  },
+  "globals": {
+    "fetch": false
+  }
+}
