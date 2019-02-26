@@ -5,5 +5,13 @@
   ],
   "plugins": [
     "@babel/plugin-proposal-class-properties",
-  ]
+    "@babel/plugin-transform-runtime"
+  ],
+  "env": {
+    "test": {
+      "plugins": [
+        "require-context-hook"
+      ]
+    }
+  }
 }

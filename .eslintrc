@@ -11,9 +11,11 @@
     "react",
     "prettier",
     "standard",
-    "security"
+    "security",
+    "react-hooks"
   ],
   "rules": {
+    "react-hooks/rules-of-hooks": "error",
     "import/first": "off",
     "prettier/prettier": "error",
     "standard/no-callback-literal": "off",

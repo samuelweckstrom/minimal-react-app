@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
+import AppRouter from './routes'
 
 class App extends Component {
   render() {
-    return (
-      <div>
-        <h1>Minimal react app</h1>
-      </div>
-    )
+    return <AppRouter />
   }
 }
 

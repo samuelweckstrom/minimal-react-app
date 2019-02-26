@@ -1,3 +1,10 @@
-/node_modules
-yarn.lock
-/to.do
+node_modules/
+**/.DS_Store
+**/yarn.lock
+# **/to.do
+# **/.vscode
+# **/.editorconfig
+# **/.prettierrc
+# **/.eslintrc
+**/yarn-error.log
+**/.env
